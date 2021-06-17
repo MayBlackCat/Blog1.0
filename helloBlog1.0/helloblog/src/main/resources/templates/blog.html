@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!--注意引用样式文件时，不同开发环境引用方式不同，一般使用../或者/代表当前目录，使用href表示静态网页时使用的，th:href="@{}"表示动态页面时使用-->
+<!--头部最好加下面这句防止乱码等问题-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <!--移动端更好的适应-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../static/images/favicon.ico" th:href="@{/images/top-key.png}" rel="icon" type="image/x-ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/typo.css" th:href="@{/css/typo.css}">
+    <link rel="stylesheet" href="../static/css/animate.css" th:href="@{/css/animate.css}">
+    <link rel="stylesheet" href="../static/css/my.css" th:href="@{/css/my.css}">
+    <link rel="stylesheet" href="../static/lib/prism/prism.css" th:href="@{/lib/prism/prism.css}">
+    <link rel="stylesheet" href="../static/lib/tocbot/tocbot.css" th:href="@{/lib/tocbot/tocbot.css}">
+    <title>博客详情</title>
+</head>
+<body>
+<!--导航-->
+<nav class="gird-header">
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui olive header item" style="font-family: STSong">HelloBlog</h2>
+            <a href="#" th:href="@{/}" class=" m-item item m-mobile-hide"><i class="home icon"></i>首页</a>
+            <a href="#" th:href="@{/types}" class="m-item item m-mobile-hide"><i class="clone outline icon"></i>分类</a>
+            <a href="#" th:href="@{/message}" class="m-item item m-mobile-hide"><i class="book icon"></i>留言板</a>
+            <a href="#" th:href="@{/archives}" class="m-item item m-mobile-hide"><i class="pencil alternate icon"></i>归档</a>
+            <a href="#" th:href="@{/background}" class="m-item item m-mobile-hide"><i class="image icon"></i>背景墙</a>
+            <a href="#" th:href="@{/about}" class="m-item item m-mobile-hide"><i class="info icon"></i>关于我</a>
+            <!--</div>-->
+            <div class="right m-item item m-mobile-hide">
+                <form name="search" action="#" th:action="@{/search}" method="post" target="_blank">
+                    <div class="ui icon transparent input m-margin-tb-tiny" style="color: white">
+                        <input style="color: white" type="text" name="query" placeholder="Search...." th:value="${query}">
+                        <i onclick="document.forms['search'].submit()" class="search link icon"></i>
+                    </div>
+                </form>
+                <div>
+                    <a href="#" th:href="@{/admin}" class="m-item item m-mobile-hide"><i class="user icon"></i>后台登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
+</nav>
+
+<!--导航结束---------------------------------------------->
+
+
+    <!--中间内容开始------------------------------------------>
+    <div id="waypoint" class="m-container-small m-padded-large">
+        <div class="ui container animated bounceInLeft">
+
+
+            <!--中间内容图片开始-->
+            <div class="ui attached segment">
+                <img src="../static/images/test1.jpg" th:src="@{${blog.blogPicture}}" alt="" class="ui fluid rounded image">
+            </div>
+            <!--中间内容图片结束-->
+            <!--中间内容头部信息开始-->
+            <div class="ui top attached segment">
+                <div class="ui horizontal link list">
+                    <div class="item">
+                        <img src="../static/images/wechat.jpg" th:src="@{${blog.user.avatar}}" alt="" class="ui avatar image"/>
+                        <div class="content"><a href="#"  class="header" th:text="${blog.user.username}">hello</a></div>
+                    </div>
+                    <div class="item">
+                        <i class="calendar icon" ></i><span th:text="${#dates.format(blog.updateTime,'yyyy-MM-dd HH:mm')}">2021-06-01</span>
+                    </div>
+
+                    <div class="item">
+                        <i class="eye icon" ></i><span th:text="${blog.views}">1000</span>
+                    </div>
+                </div>
+            </div>
+            <!--中间内容头部信息结束-->
+
+            <!--中间内容博客内容开始-->
+            <div class="ui attached padded segment">
+                <div class="ui right aligned basic segment">
+                    <div class="ui green basic label" th:text="${blog.flags}">转载</div>
+                </div>
+
+                <!--博客具体内容-->
+                <div id="m-id-content" class="typo typo-selection js-toc-content m-padded-left-right-responsive m-padded-large" th:utext="${blog.content}">
+
+                </div>
+                <!--标签-->
+                <div class="ui right aligned basic segment">
+                    <div class="ui blue basic label"  th:each="tags : ${blog.tags}" th:text="${tags.getName()}">科技</div>
+                </div>
+                <!--类型-->
+                <div class=".m-padded-left-right-responsive">
+                    <div class="ui basic teal left pointing label" th:text="${blog.typeName}">spring</div>
+                </div>
+                <!--赞赏-->
+                <div class="ui center aligned basic segment" th:if="${blog.appreciate}">
+                    <button id="m-pay-button-id" class="ui orange basic circular button">赞赏</button>
+                </div>
+                <div class="ui m-pay-q flowing popup transition hidden">
+                    <div class="ui orange basic label">
+                        <div class="ui images" style="font-size: inherit !important;">
+                            <div class="image">
+                                <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" alt="" class="ui rounded bordered image" style="width: 120px">
+                                <div>支付宝</div>
+                            </div>
+                            <div class="image">
+                                <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" alt="" class="ui rounded bordered image" style="width: 120px">
+                                <div>微信</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div th:if="${blog.commentable}">
+                    <div id="vcomments"></div>
+                </div>
+            </div>
+            <!--中间内容博客内容结束-->
+
+
+            <!--中间内容博客其他信息开始-->
+
+            <div class="ui positive attached message" th:if="${blog.publish}">
+                <!--grid进行左右布局-->
+                <div class="ui middle aligned grid">
+                    <!--左边11份-->
+                    <div class="eleven wide column">
+                        <li>作者：<span th:text="${blog.user.username}">Cat</span><a href="#" th:href="@{/about}" target="_blank">（联系作者）</a></li>
+                        <li>发表时间：<span th:text="${#dates.format(blog.createTime, 'yyyy-MM-dd HH:mm')}">2021-06-01 01:11</span></li>
+                        <li>版权声明：3.0许可</li>
+                        <li>公众号转载：请在文末添加作者公众号二维码</li>
+                    </div>
+                    <!--右边5份-->
+                    <div class="five wide column">
+                        <!-- right floated 往右浮动-->
+                        <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" class="ui bordered rounded image right floated" style="width: 110px">
+                    </div>
+                </div>
+            </div>
+            <!--中间内容博客其他信息结束-->
+
+
+
+    <!-- 右边小工具条开始  ---------------->
+    <div id="toolbar" class="m-padded-all m-fixed m-right-bottom" style="display: none;">
+        <div class="ui vertical icon buttons ">
+            <button type="button" class="ui toc-button teal button">文章目录</button>
+            <a href="#comment-container" class="ui teal button">留言</a>
+            <button class="ui wechatReadBut icon button"><i class="weixin icon"></i> 扫码阅读</button>
+        </div> 
+    </div>
+    <div class="ui toc-comtainer flowing popup transition hidden" style="width: 300px !important;">
+        <ol class="js-toc">
+            
+        </ol>
+    </div>
+    <div id="qrcode" class="ui wechatRead flowing popup transition hidden" style="width: 130px !important">
+         <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" class="ui rounded image" style="width: 100px" />
+    </div>
+    <!-- 右边小工具条结束  ---------------->
+            <!--置顶图标-->
+            <div id="toolbar" class="m-padded-tb-large m-fixed m-right-bottom">
+                <a href="#" class="ui teal icon button"><i class="chevron up icon"></i> </a>
+            </div>
+
+
+
+<script src="../static/dist/jquery/jquery-3.4.1.min.js" th:src="@{/dist/jquery/jquery-3.4.1.min.js}"></script>
+<script src="../static/dist/semantic/semantic.min.css" th:src="@{/dist/semantic/semantic.min.js}"></script>
+<script src="../static/lib/scrollTo/scrollTo.min.js" th:src="@{/lib/scrollTo/scrollTo.min.js}"></script>
+<script src="../static/lib/prism/prism.js" th:src="@{/lib/prism/prism.js}"></script>
+<script src="../static/lib/tocbot/tocbot.js" th:src="@{/lib/tocbot/tocbot.js}"></script>
+<script src="../static/lib/qrcode/qrcode.min.js" th:src="@{/lib/qrcode/qrcode.min.js}"></script>
+<script src="../static/lib/waypoints/waypoints.min.js" th:src="@{/lib/waypoints/waypoints.min.js}"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js" th:src="@{//unpkg.com/valine/dist/Valine.min.js}"></script>
+<script>
+
+    new Valine({
+        el: '#vcomments',
+        appId: 'BJDRKFRY4lSW203ebH73FhKx-gzGzoHsz',
+        appKey: 'SDcLufFp6l7ANxGoKGId9NAY'
+    })
+
+    $('.m-menu.m-toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide');
+    });
+
+    $('#m-pay-button-id').popup({
+       popup : $('.m-pay-q.popup'),
+        on : 'click',
+        position: 'bottom center'
+    });
+
+    /* 初始化文章目录 */
+    tocbot.init({
+      // 指定在哪放置这个文章目录
+      tocSelector: '.js-toc',
+      // 需要指定为哪个里面的内容生成目录
+      contentSelector: '.js-toc-content',
+      // 指定生成的级别
+      headingSelector: 'h1, h2, h3, h4',
+      // For headings inside relative or absolute positioned containers within content.
+      hasInnerContainers: true
+    });
+
+    $('.toc-button').popup({
+       popup : $('.toc-comtainer.popup'),
+        on : 'click',
+        position: 'left center'
+    });
+
+
+    var qrcode = new QRCode("qrcode", {
+        text: "http://jindo.dev.naver.com/collie",
+        width: 100,
+        height: 100,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+    });
+
+    $('#toTop-button').click(function() {
+        $(window).scrollTo(0,800);
+    });
+
+
+</script>
+</body>
+</html>

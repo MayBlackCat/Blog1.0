@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <!--移动端更好的适应-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../static/images/favicon.ico" th:href="@{/images/top-key.png}" rel="icon" type="image/x-ico">
+    <link rel="stylesheet" href="../../static/dist/semantic/semantic.min.css" th:href="@{/dist/semantic/semantic.min.css}">
+    <link rel="stylesheet" href="../../static/css/my.css" th:href="@{/css/my.css}">
+    <title>博客管理</title>
+</head>
+<body>
+    <!--导航开始--------------------------------------------->
+    <nav th:replace="admin/_fragments :: menu(1)" class="ui inverted attached segment m-padded-mini m-shadow-small" >
+        <div class="ui container">
+            <div class="ui inverted secondary stackable menu">
+                <h2 class="ui teal header item">HelloBlog管理后台</h2>
+                <a href="#" th:href="@{/admin/blogs}" class="m-item item m-mobile-hide"><i class="home icon"></i>博客</a>
+                <a href="#" th:href="@{/admin/types}" class="m-item item m-mobile-hide"><i class="idea icon"></i>分类</a>
+                <a href="#" th:href="@{/admin/tags}" class="m-item item m-mobile-hide"><i class="tags icon"></i>标签</a>
+                <div class="right m-item m-mobile-hide menu">
+                    <div class="ui dropdown item">
+                        <img class="ui avatar image" src="../../static/images/me.jpg" th:src="@{/images/me.jpg}">hello
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <a href="#" class="item">修改密码</a>
+                            <a href="#" th:href="@{/admin/logout}" class="item">注销</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="ui m-menu m-toggle black icon button m-right-top m-mobile-show">
+            <i class="sidebar icon"></i>
+        </a>
+    </nav>
+    <!-- 二级导航 -->
+    <div class="ui attached pointing menu">
+        <div class="ui container">
+            <div class="right menu">
+                <a href="#" th:href="@{/admin/blogs/add}" class=" item">发布</a>
+                <a href="#" th:href="@{/admin/blogs}" class="teal active item">列表</a>
+            </div>
+        </div>
+    </div>
+    <!--导航结束---------------------------------------------->
+
+
+    <!--中间内容开始------------------------------------------>
+    <div class="m-container m-padded-large">
+        <div class="ui container">
+            <div class="ui scale message" th:unless="${#strings.isEmpty(message)}">
+                <i class="close icon"></i>
+                <div class="" th:text="|提示: ${message}">提示：操作成功！</div>
+            </div>
+            <!--中间内容上面的开搜索始 ---->
+            <!--查询表单需要是form提交数据-->
+
+            <div action="#" th:action="@{/admin/search}" method="post" class="ui secondary segment form">
+                <input type="hidden" name="page">
+                <div class="inline fields">
+                    <div class="field">
+                        <input type="text" name="title" placeholder="标题" />
+                    </div>
+                    <div class="field">
+                        <div class="ui selection dropdown">
+                            <input type="hidden" name="typeId">
+                            <i class="dropdown icon"></i>
+                            <div class="default text">分类</div>
+                            <div class="menu">
+                                <div th:each="type : ${types.list}" class="item" data-value="1" th:data-value="${type.id}" th:text="${type.name}">spring</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field">
+
+                        <button id="clear-btn" class="ui compact button">清除</button>
+                    </div>
+                    <div class="field">
+                        <button type="button" id="search-btn" class="ui mini teal basic button"><i class="search icon"></i>搜索</button>
+                    </div>
+
+                </div>
+            </div>
+            <!--中间内容上面的搜索结束 ---->
+
+            <!-- 中间内容搜索结果开始 -->
+            <!-- 实现使用片段局部刷新 -->
+            <div  id="table-container">
+                <table th:fragment="blogList" class="ui celled table">
+
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>标题</th>
+                        <th>类型</th>
+                        <th>推荐</th>
+                        <th>状态</th>
+                        <th>更新时间</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="blog,iterStat : ${page.list}">
+                        <td class="text" th:text="${iterStat.count}">1</td>
+                        <td th:text="${blog.title}">springboot开发指南</td>
+                        <td th:text="${blog.typeName}">springboot</td>
+                        <td th:text="${blog.recommend==true?'是':'否'}"></td>
+                        <td th:text="${blog.published==true?'发布':'草稿'}"></td>
+                        <td th:text="${#dates.format(blog.updateTime,'yyyy-MM-dd HH:mm')}">2021-06-02 09:01</td>
+                        <td>
+                            <a href="#" th:href="@{/admin/blogs/{id}/modify(id=${blog.id})}" class="ui mini teal basic button">修改</a>
+                            <a href="#" th:href="@{/admin/blogs/{id}/delete(id=${blog.id})}" onclick="return confirm('确定要删除该文章吗？')" class="ui mini red basic button">删除</a>
+                        </td>
+                    </tr>
+                </tbody>
+                <!-- 中间内容分页开始 -->
+                <tfoot>
+                <tr>
+                    <th colspan="7">
+                        <div class="ui inverted divided stackable grid">
+                            <div class="three wide column" align="center">
+                                <a class="item" th:href="@{/admin/blogs(pageNum=${page.hasPreviousPage}?${page.prePage}:1)}" th:unless="${page.isFirstPage}">上一页</a>
+                            </div>
+
+                            <div class="ten wide column" align="center">
+                                <p>第 <span th:text="${page.pageNum}"></span> 页，共 <span th:text="${page.pages}"></span> 页，有 <span th:text="${page.total}"></span> 篇文章</p>
+                            </div>
+
+                            <div class="three wide column" align="center">
+                                <a class="item" th:href="@{/admin/blogs(pageNum=${page.hasNextPage}?${page.nextPage}:${page.pages})}" th:unless="${page.isLastPage}">下一页</a>
+                            </div>
+                        </div>
+                        <div align="center">
+                            <a href="#" th:href="@{/admin/blogs/add}">
+                                <button type="button" class="ui teal button m-mobile-wide m-margin-top"><i class="pencil icon"></i>新增</button>
+                            </a>
+                        </div>
+                    </th>
+                </tr>
+                </tfoot>
+                <!-- 中间内容分页结束 -->
+            </table>
+            <!-- 中间内容搜索结果结束 -->
+            </div>
+        </div>
+    </div>
+    <!--中间内容结束------------------------------------------>
+
+
+
+<script src="../../static/dist/jquery/jquery-3.4.1.min.js" th:src="@{/dist/jquery/jquery-3.4.1.min.js}"></script>
+<script src="../../static/dist/semantic/semantic.min.js" th:src="@{/dist/semantic/semantic.min.js}"></script>
+<script>
+    $('.m-menu.m-toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide');
+    });
+
+    $('.ui.dropdown').dropdown({
+        on : 'hover'
+    });
+
+    //消息提示关闭初始化
+    $('.message .close')
+        .on('click', function () {
+            $(this)
+                .closest('.message')
+                .transition('fade');
+        });
+
+
+    $('#clear-btn')
+        .on('click',function(){
+        $('.type.ui.dropdown')
+            .dropdown('clear');
+    });
+
+
+    //实现局部刷新的后台重新分页
+    function page(obj) {
+        $("[name='page']").val($(obj).data("page"));
+        loaddata();
+    }
+
+
+    $("#search-btn").click(function () {
+        $("[name='page']").val(0);
+        loaddata();
+    });
+
+    //ajax传值到后台
+    function loaddata() {
+        $("#table-container").load(/*[[@{/admin/blogs/search}]]*/"/admin/blogs/search",{
+            title : $("[name='title']").val(),
+            typeId : $("[name='typeId']").val(),
+            page : $("[name='page']").val()
+
+
+    });
+    }
+</script>
+</body>
+</html>

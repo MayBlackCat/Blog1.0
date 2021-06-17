@@ -1,0 +1,827 @@
+09:29:58.663 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 5760 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+09:29:58.674 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+09:30:01.074 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+09:30:01.074 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:30:01.075 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+09:30:01.315 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:30:01.501 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+09:30:01.738 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+09:30:02.417 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+09:30:02.441 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 5.258 seconds (JVM running for 8.542)
+09:30:05.180 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:30:05.259 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@2df9b131
+09:30:07.263 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+09:30:15.184 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@4340a35b
+09:30:15.187 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/login
+09:30:26.858 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@4961998e
+09:30:26.868 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/index
+09:31:08.096 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 8832 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+09:31:08.100 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+09:31:09.299 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+09:31:09.300 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:31:09.300 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+09:31:09.370 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:31:09.488 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+09:31:09.563 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+09:31:10.106 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+09:31:10.130 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.59 seconds (JVM running for 4.008)
+09:31:10.412 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:31:10.453 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@563f3890
+09:31:11.743 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/index
+09:31:14.874 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@71d3168d
+09:31:14.875 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : redirect:/admin
+09:31:14.883 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7f390ce9
+09:31:14.884 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/login
+09:31:18.720 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@1b73acc6
+09:31:18.814 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+09:31:24.096 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@2daa9b34
+09:31:24.170 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+09:31:25.988 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@298b7310
+09:31:25.988 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/login
+09:31:32.439 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@739bf552
+09:31:32.444 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/index
+09:31:38.566 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@4dd8b4cb
+09:31:38.641 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+09:31:56.072 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 11840 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+09:31:56.077 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+09:31:57.178 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+09:31:57.178 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:31:57.178 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+09:31:57.235 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:31:57.344 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+09:31:57.421 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+09:31:57.948 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+09:31:57.967 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.416 seconds (JVM running for 3.84)
+09:31:58.139 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:31:58.174 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@1b575987
+09:31:59.536 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+09:32:02.068 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@fc622e3
+09:32:02.127 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+09:32:04.438 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@50f861e6
+09:32:04.442 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/login
+09:32:08.487 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@5f2c311a
+09:32:08.495 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/index
+09:32:10.954 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@620d4ff3
+09:32:10.954 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : redirect:/admin
+09:32:10.962 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@a619e55
+09:32:10.963 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/login
+09:32:21.393 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@60420c00
+09:32:21.466 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+09:32:49.213 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 15836 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+09:32:49.221 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+09:32:50.884 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+09:32:50.885 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:32:50.885 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+09:32:50.962 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:32:51.287 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+09:32:51.444 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+09:32:52.307 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+09:32:52.329 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 3.865 seconds (JVM running for 6.057)
+09:41:43.014 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:41:43.053 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@748545d0
+09:41:43.764 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@186d0f65
+09:41:44.472 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+09:41:44.472 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+09:41:44.577 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@47389b1e
+09:41:44.664 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+09:41:47.683 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@72610de
+09:41:47.775 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+09:41:56.624 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@2b5e07c8
+09:41:56.727 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : blog
+09:42:05.110 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@5e6abc9f
+09:42:05.131 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : blog
+11:07:15.352 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 8196 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+11:07:15.355 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:07:16.703 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:07:16.703 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:07:16.704 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:07:16.857 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:07:16.986 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:07:17.144 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+11:07:17.763 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:07:17.781 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 3.176 seconds (JVM running for 5.312)
+11:08:00.467 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:08:00.501 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@16cc4323
+11:08:02.184 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+11:08:05.783 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@13993446
+11:08:05.786 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+11:08:05.930 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@25f9d280
+11:08:05.938 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+11:08:10.633 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@3ac7f82c
+11:08:10.633 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+11:08:10.705 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@5eaa02c2
+11:08:10.710 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+11:08:10.832 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@4623e4cd
+11:08:10.832 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+11:08:10.888 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@73c18d82
+11:08:10.896 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+11:08:11.015 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@4bfa589b
+11:08:11.016 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+11:08:11.068 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@506e0ee6
+11:08:11.075 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+11:08:11.184 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@a2ccd3b
+11:08:11.184 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+11:08:11.243 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@34000104
+11:08:11.246 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+11:08:11.344 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@4aeb27ac
+11:08:11.345 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+11:08:11.399 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@48e40279
+11:08:11.406 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+11:08:11.519 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@3c3b67b1
+11:08:11.519 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+11:08:11.578 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@453daf94
+11:08:11.582 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+11:09:43.412 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 17880 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+11:09:43.416 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:09:44.488 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:09:44.489 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:09:44.489 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:09:44.554 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:09:44.654 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:09:44.727 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+11:09:45.184 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:09:45.204 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.241 seconds (JVM running for 3.662)
+11:10:16.056 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:10:16.088 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@121ac8dc
+11:10:16.787 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@68c43823
+11:10:17.364 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+11:10:17.364 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+11:10:18.255 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@35379ada
+11:10:18.313 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+11:10:19.151 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@a8c7f77
+11:10:19.194 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+11:10:20.335 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@2c0d006a
+11:10:20.337 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+11:10:20.448 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@b7b3307
+11:10:20.457 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messageList
+11:10:39.585 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@42236a02
+11:10:39.665 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+11:10:41.585 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7b459eda
+11:10:41.586 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+11:10:41.652 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@176e5f11
+11:10:41.655 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messageList
+11:15:39.021 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 8372 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+11:15:39.024 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:15:40.186 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:15:40.187 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:15:40.187 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+11:15:40.258 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:15:40.388 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:15:40.482 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+11:15:40.966 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:15:40.982 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.412 seconds (JVM running for 3.681)
+15:40:31.231 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 17904 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+15:40:31.245 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:40:33.531 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+15:40:33.531 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:40:33.531 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+15:40:33.617 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:40:33.783 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:40:34.014 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+15:40:34.421 [main] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+15:40:34.422 [main] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+15:40:34.428 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+15:43:15.806 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 20260 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+15:43:15.810 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:43:16.716 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+15:43:16.717 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:43:16.717 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+15:43:16.775 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:43:16.873 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:43:16.940 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+15:43:17.694 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+15:43:17.723 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.328 seconds (JVM running for 3.524)
+15:43:26.803 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:43:26.848 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@1b3d2008
+15:43:28.363 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+15:43:30.478 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@2daa9b34
+15:43:30.482 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : background
+15:43:31.986 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@f78530e
+15:43:31.995 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : archives
+15:43:33.207 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@17e318d8
+15:43:33.210 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : ModelAndView [view="error/business"; model={url=http://localhost:8080/message, exception=org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported}]
+15:43:36.981 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@4cc6ae9b
+15:43:36.982 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : ModelAndView [view="error/business"; model={url=http://localhost:8080/message, exception=org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported}]
+15:51:19.072 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 20456 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+15:51:19.076 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:51:20.600 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+15:51:20.600 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:51:20.601 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+15:51:20.676 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:51:20.791 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:51:20.970 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+15:51:21.433 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+15:51:21.450 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.921 seconds (JVM running for 4.239)
+15:51:29.205 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:51:29.241 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@51e092f6
+15:51:30.463 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+15:51:32.032 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7226a9e0
+15:51:32.036 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+15:51:32.236 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@4cb5a2a7
+15:51:32.248 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+15:54:00.290 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7f10cda0
+15:54:00.293 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : background
+15:54:01.181 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@286ef135
+15:54:01.181 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+15:54:01.231 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@139098fe
+15:54:01.331 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+15:56:05.111 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@1393e8b2
+15:56:05.168 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : archives
+15:56:06.779 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@c2b4d6e
+15:56:06.780 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+15:56:06.837 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@6360b035
+15:56:06.842 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+15:56:10.274 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@5ff8b097
+15:56:10.283 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : archives
+15:56:11.507 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@bafed20
+15:56:11.507 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+15:56:11.569 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@30ea3609
+15:56:11.574 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+15:56:13.930 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@26a90a48
+15:56:13.995 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+15:56:14.981 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@380bc974
+15:56:14.981 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+15:56:15.043 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@101e2c33
+15:56:15.046 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+16:35:30.057 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 23352 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+16:35:30.060 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:35:31.346 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:35:31.346 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:35:31.347 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+16:35:31.607 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:35:31.726 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:35:31.889 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+16:35:32.366 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:35:32.382 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 3.045 seconds (JVM running for 4.745)
+16:35:41.415 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:35:41.448 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@5729eba7
+16:35:42.705 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+16:35:48.796 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@26316fea
+16:35:48.852 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+16:35:49.771 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@541750df
+16:35:49.773 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+16:35:49.915 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@162331e0
+16:35:49.927 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+16:35:50.451 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@777e909a
+16:35:50.458 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : archives
+16:35:51.019 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7dddceb1
+16:35:51.023 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : about
+16:35:52.344 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@413384b8
+16:35:52.389 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+16:36:13.672 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@4c98e854
+16:36:13.727 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : search
+16:42:51.385 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 20320 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+16:42:51.390 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:42:52.561 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:42:52.561 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:42:52.562 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+16:42:52.619 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:42:52.746 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:42:52.822 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+16:42:53.313 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:42:53.329 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.399 seconds (JVM running for 3.73)
+16:43:03.251 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:43:03.284 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@3b23b114
+16:43:04.372 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+16:43:09.023 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@48b0c5d
+16:43:09.076 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+16:43:32.630 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@35379ada
+16:43:32.632 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : background
+16:43:55.621 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@6df50985
+16:43:55.624 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : about
+16:44:04.734 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@76a0b59a
+16:44:04.735 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : background
+16:44:07.239 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@79657648
+16:44:07.249 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : archives
+16:49:01.226 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 22216 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+16:49:01.230 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:49:02.205 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:49:02.205 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:49:02.206 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+16:49:02.278 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:49:02.372 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+16:49:02.437 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+16:49:02.880 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:49:02.895 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.091 seconds (JVM running for 3.693)
+16:49:08.129 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:49:08.166 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@5a07b41b
+16:49:09.216 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+16:49:11.471 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@5eb3164
+16:49:11.532 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+16:49:12.382 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@2cb9faad
+16:49:12.385 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+16:49:12.460 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7f1391aa
+16:49:12.505 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+16:49:19.366 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@779c7efe
+16:49:19.374 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : archives
+16:49:25.598 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@28adcb06
+16:49:25.601 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : background
+16:49:30.887 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7b190054
+16:49:30.890 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : about
+16:49:32.029 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@788ff0cd
+16:49:32.030 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : background
+16:49:33.525 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7ff5accd
+16:49:33.532 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : archives
+16:49:34.571 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@25601f1b
+16:49:34.572 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+16:49:34.634 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@4cb5a2a7
+16:49:34.638 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+16:50:40.134 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@3eae411
+16:50:40.221 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+16:52:20.950 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@478add5f
+16:52:20.951 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : background
+17:09:49.740 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 22416 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+17:09:49.744 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:09:50.766 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:09:50.766 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:09:50.766 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+17:09:50.822 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:09:50.922 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:09:50.986 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+17:09:51.404 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+17:09:51.420 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.09 seconds (JVM running for 3.77)
+17:09:57.870 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:09:57.901 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7b7a2598
+17:09:58.950 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+17:10:07.210 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@269e6412
+17:10:07.269 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+17:10:11.595 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@6df50985
+17:10:11.640 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+17:10:36.130 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@71ee03f
+17:10:36.132 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+17:10:36.221 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@15d05a7c
+17:10:36.249 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+17:42:45.719 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@76a0b59a
+17:42:45.821 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+17:42:47.054 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@a8c7f77
+17:42:47.055 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+17:42:47.117 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@6aaeb9f7
+17:42:47.124 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+17:42:47.938 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@59bd2f5a
+17:42:47.948 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : archives
+17:42:48.849 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@1541888f
+17:42:48.854 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : background
+17:42:49.961 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@1d9c1bf4
+17:42:49.967 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : archives
+17:42:52.597 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@68c43823
+17:42:52.597 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : background
+17:42:55.539 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@59f35d0c
+17:42:55.542 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : about
+17:44:42.606 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 22172 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+17:44:42.629 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:44:44.268 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:44:44.268 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:44:44.268 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+17:44:44.457 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:44:44.594 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+17:44:44.885 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+17:44:45.426 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+17:44:45.444 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 3.621 seconds (JVM running for 5.358)
+17:44:49.159 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:44:49.191 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@159586bc
+17:44:50.523 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+17:44:51.454 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@2a86105b
+17:44:51.456 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+17:44:51.531 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@398a3c51
+17:44:51.542 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+18:00:49.868 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 16640 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+18:00:49.872 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:00:50.950 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+18:00:50.951 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:00:50.951 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+18:00:51.014 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:00:51.115 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:00:51.176 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+18:00:51.615 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+18:00:51.632 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.144 seconds (JVM running for 3.306)
+18:00:58.097 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:00:58.124 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@4f1a91a5
+18:00:59.334 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+18:01:01.238 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@298b7310
+18:01:01.241 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+18:26:39.872 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 15816 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+18:26:39.880 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:26:41.255 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+18:26:41.255 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:26:41.255 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+18:26:41.475 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:26:41.605 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:26:41.780 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+18:26:42.199 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+18:26:42.215 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 3.024 seconds (JVM running for 4.664)
+18:26:55.423 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:26:55.451 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@d43ea01
+18:26:56.678 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+18:26:58.250 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@5ff8b097
+18:26:58.253 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+18:33:54.382 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 1412 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+18:33:54.386 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:33:55.411 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+18:33:55.412 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:33:55.412 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+18:33:55.483 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:33:55.615 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:33:55.693 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+18:33:56.132 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+18:33:56.148 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.196 seconds (JVM running for 3.36)
+18:34:07.254 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:34:07.287 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@5a07b41b
+18:34:08.349 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+18:34:12.034 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@2cb9faad
+18:34:12.093 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+18:34:17.401 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@5895dbfc
+18:34:17.404 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+18:34:51.049 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@4cb5a2a7
+18:34:51.052 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : background
+18:34:53.249 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7f1391aa
+18:34:53.250 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+18:36:29.243 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 6460 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+18:36:29.247 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:36:30.191 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+18:36:30.192 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:36:30.192 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+18:36:30.245 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:36:30.354 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:36:30.429 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+18:36:30.848 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+18:36:30.864 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.058 seconds (JVM running for 3.256)
+18:36:37.448 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:36:37.480 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@4304a10c
+18:36:38.632 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+18:36:40.660 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@34ce3f31
+18:36:40.664 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+18:37:45.155 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 8372 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+18:37:45.159 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:37:46.209 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+18:37:46.210 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:37:46.210 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+18:37:46.265 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:37:46.364 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:37:46.427 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+18:37:46.868 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+18:37:46.885 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.15 seconds (JVM running for 3.377)
+18:37:51.078 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:37:51.106 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@496dc41c
+18:37:52.241 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+18:37:54.127 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@2c0d006a
+18:37:54.130 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+18:43:56.170 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 19664 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+18:43:56.174 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:43:57.176 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+18:43:57.176 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:43:57.176 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+18:43:57.229 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:43:57.324 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:43:57.405 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+18:43:57.851 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+18:43:57.866 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.141 seconds (JVM running for 3.735)
+18:44:01.956 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:44:02.014 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@1dddf4b0
+18:44:03.379 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+18:44:05.428 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@71d3168d
+18:44:05.484 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+18:44:08.211 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@413384b8
+18:44:08.260 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+18:44:09.607 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@17b9c9f6
+18:44:09.756 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : blog
+18:45:18.768 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@2daa9b34
+18:45:18.772 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+18:45:18.900 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@79639e22
+18:45:19.009 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+18:45:29.107 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@6d2cf450
+18:45:29.158 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+18:45:37.827 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@118bc7b6
+18:45:37.875 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+18:45:44.769 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@8b9d820
+18:45:44.811 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+18:45:50.409 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@2437aae6
+18:45:50.453 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+18:46:19.043 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@68adaaee
+18:46:19.078 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+18:46:20.567 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7f390ce9
+18:46:20.595 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : blog
+18:53:08.910 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 10228 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+18:53:08.915 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:53:09.873 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+18:53:09.874 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:53:09.874 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+18:53:09.957 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:53:10.051 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:53:10.118 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+18:53:10.533 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+18:53:10.549 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.07 seconds (JVM running for 3.214)
+18:53:16.720 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:53:16.756 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@3e076c1d
+18:53:17.832 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+18:53:19.613 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@6df50985
+18:53:19.673 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+18:53:20.247 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@71ee03f
+18:53:20.305 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+18:53:21.248 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@424f11fd
+18:53:21.253 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+18:53:21.339 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@76a0b59a
+18:53:21.352 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+18:53:22.632 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@269e6412
+18:53:22.688 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+18:53:23.868 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@47112e3f
+18:53:23.926 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : blog
+18:56:30.587 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 24216 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+18:56:30.590 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:56:31.535 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+18:56:31.536 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:56:31.536 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+18:56:31.635 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:56:31.753 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:56:31.850 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+18:56:32.405 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+18:56:32.422 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.28 seconds (JVM running for 3.5)
+18:56:38.747 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:56:38.776 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@121ac8dc
+18:56:38.917 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@69d49b9b
+18:56:39.848 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : blog
+18:56:39.868 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+18:56:42.256 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@3fcff1aa
+18:56:42.260 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/login
+18:56:46.045 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@44965a33
+18:56:46.051 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/index
+18:58:30.494 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 9816 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+18:58:30.497 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:58:31.663 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+18:58:31.664 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:58:31.664 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+18:58:31.726 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:58:31.852 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:58:31.945 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+18:58:32.475 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+18:58:32.503 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.496 seconds (JVM running for 5.061)
+18:58:34.636 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+18:58:34.638 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+18:58:39.107 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 24296 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+18:58:39.117 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:58:40.067 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+18:58:40.068 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:58:40.068 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+18:58:40.126 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:58:40.234 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+18:58:40.297 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+18:58:40.755 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+18:58:40.771 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.109 seconds (JVM running for 3.492)
+18:58:40.979 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:58:41.010 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@13c8b2bd
+18:58:42.155 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+18:58:43.487 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@40631fef
+18:58:43.490 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/login
+18:58:47.181 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@23ff6da7
+18:58:47.189 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/index
+18:58:49.031 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7acd7837
+18:58:49.053 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/blogs
+18:58:50.064 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@2c0d006a
+18:58:50.074 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/types
+18:58:50.720 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7867553e
+18:58:50.726 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/tags
+18:58:51.535 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@6603db4b
+18:58:51.551 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/blogs
+18:58:52.481 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@a8c7f77
+18:58:52.485 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/types
+18:58:53.183 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@424f11fd
+18:58:53.190 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/tags
+18:58:53.640 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@587355f7
+18:58:53.655 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/blogs
+18:58:54.887 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@61b67cda
+18:58:54.907 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/blogs :: blogList
+18:59:14.511 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@5637e0af
+18:59:14.525 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/blogs
+18:59:16.816 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@3251cd49
+18:59:16.826 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : ModelAndView [view="admin/blogs-input"; model=null]
+18:59:32.660 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@199068ad
+18:59:32.677 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/blogs :: blogList
+19:00:00.337 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@435f959f
+19:00:00.339 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/modifypassword
+19:00:06.270 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@2705dd07
+19:00:06.270 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : redirect:/admin
+19:00:06.278 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@47a6e73d
+19:00:06.278 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : admin/login
+19:00:08.149 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@3a4b51e5
+19:00:08.192 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+19:00:10.487 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@4f8e3b46
+19:00:10.489 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+19:00:10.563 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@6a6de8cc
+19:00:10.572 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+19:00:17.056 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@27643257
+19:00:17.063 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : archives
+19:00:26.141 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7fa73413
+19:00:26.143 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : background
+19:00:29.495 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@500ee1bd
+19:00:29.497 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : about
+19:00:30.638 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@3171347e
+19:00:30.644 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : archives
+19:00:31.141 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7a91a67b
+19:00:31.142 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+19:00:31.194 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@4d2d7472
+19:00:31.221 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+19:00:31.734 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@60dbd576
+19:00:31.783 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+19:00:36.941 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@39a95251
+19:00:36.980 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+19:00:40.860 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@540d383c
+19:00:40.902 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+19:06:29.918 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 8260 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+19:06:29.923 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:06:31.037 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+19:06:31.038 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:06:31.038 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+19:06:31.098 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:06:31.220 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:06:31.312 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+19:06:31.939 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+19:06:31.958 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.532 seconds (JVM running for 3.784)
+19:06:56.169 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:06:56.206 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@51ea900e
+19:06:57.297 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+19:07:03.961 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@b07d9b8
+19:07:03.964 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : background
+19:07:14.130 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@50ad48fa
+19:07:14.141 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : archives
+19:07:15.687 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@48b0c5d
+19:07:15.692 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+19:07:15.764 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@15d05a7c
+19:07:15.775 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+19:10:07.653 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 2952 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+19:10:07.659 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:10:09.351 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+19:10:09.353 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:10:09.353 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+19:10:09.449 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:10:09.625 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:10:09.750 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+19:10:10.248 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+19:10:10.267 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 3.38 seconds (JVM running for 5.329)
+19:10:10.399 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:10:10.423 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@67297992
+19:10:11.773 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+19:10:13.833 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@162331e0
+19:10:13.854 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+19:10:13.916 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@541750df
+19:10:13.927 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+19:10:36.142 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 17612 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+19:10:36.147 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:10:37.738 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+19:10:37.738 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:10:37.739 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+19:10:37.812 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:10:37.945 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:10:38.044 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+19:10:38.503 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+19:10:38.519 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.928 seconds (JVM running for 4.705)
+19:10:38.552 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:10:38.578 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@145b47b9
+19:10:39.815 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+19:10:40.976 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@6d2cf450
+19:10:40.982 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+19:10:41.045 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@298b7310
+19:10:41.051 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+19:10:48.906 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@11d3555a
+19:10:48.910 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : background
+19:11:19.022 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 24256 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+19:11:19.026 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:11:20.225 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+19:11:20.226 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:11:20.226 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+19:11:20.293 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:11:20.400 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:11:20.463 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+19:11:20.891 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+19:11:20.912 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.34 seconds (JVM running for 3.634)
+19:11:20.947 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:11:20.973 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@6a1aa9b0
+19:11:22.205 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+19:11:23.665 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7f390ce9
+19:11:23.668 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : background
+19:11:25.559 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@118bc7b6
+19:11:25.574 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : archives
+19:11:27.424 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@79639e22
+19:11:27.427 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+19:11:27.495 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@6d2cf450
+19:11:27.500 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+19:18:54.125 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 24292 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+19:18:54.130 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:18:55.152 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+19:18:55.153 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:18:55.153 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+19:18:55.224 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:18:55.345 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:18:55.414 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+19:18:55.836 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+19:18:55.852 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.158 seconds (JVM running for 3.409)
+19:19:06.262 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:19:06.294 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@487d62f9
+19:19:07.311 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+19:23:21.129 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7dddceb1
+19:23:21.131 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+19:23:21.277 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7f390ce9
+19:23:21.392 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+19:23:43.592 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@79639e22
+19:23:43.603 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : archives
+19:24:11.453 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@a72c5ae
+19:24:11.508 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+19:24:27.741 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@5208ca0e
+19:24:27.811 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : search
+19:25:29.631 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 23856 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+19:25:29.646 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+19:25:30.964 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+19:25:30.964 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:25:30.964 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+19:25:31.122 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:25:31.235 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+19:25:31.407 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+19:25:31.868 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+19:25:31.885 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.921 seconds (JVM running for 5.73)
+19:25:41.663 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:25:41.699 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@86a19f5
+19:25:42.987 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : search
+19:27:49.772 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@5ff8b097
+19:27:49.867 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+19:28:27.127 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@101e2c33
+19:28:27.130 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : about
+19:31:19.572 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@5680225
+19:31:19.654 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+19:31:21.211 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@f9fb247
+19:31:21.356 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : blog
+20:02:02.758 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@152cf365
+20:02:02.873 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+20:02:04.159 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@286ef135
+20:02:04.192 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : blog
+20:02:28.110 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@4df69f3f
+20:02:28.181 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+20:02:30.090 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@dfc0e75
+20:02:30.122 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : blog
+20:03:48.648 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 15684 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+20:03:48.666 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+20:03:50.566 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+20:03:50.567 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+20:03:50.567 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+20:03:50.770 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+20:03:51.028 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+20:03:51.252 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+20:03:51.785 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+20:03:51.807 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 4.184 seconds (JVM running for 6.686)
+20:03:52.026 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:03:52.056 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@5021f1d2
+20:03:53.784 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+20:04:15.090 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@15070d54
+20:04:15.176 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : blog
+20:04:58.199 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@31ab39f2
+20:04:58.221 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : blog
+20:06:20.219 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@2e7d5db4
+20:06:20.319 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+20:06:21.233 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@10a03360
+20:06:21.286 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+20:06:22.038 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@707a7216
+20:06:22.040 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+20:06:22.231 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@3fb54ed
+20:06:22.239 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+20:06:22.848 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@2f801707
+20:06:22.857 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : archives
+20:06:23.785 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@cabe64a
+20:06:23.789 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : background
+20:06:25.608 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@5db2ff23
+20:06:25.611 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : about
+20:06:26.943 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@498d6a5e
+20:06:26.989 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+20:23:01.181 [main] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 13912 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+20:23:01.185 [main] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+20:23:02.209 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+20:23:02.209 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+20:23:02.209 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.29]
+20:23:02.388 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+20:23:02.500 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+20:23:02.671 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+20:23:03.241 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+20:23:03.257 [main] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 2.779 seconds (JVM running for 4.472)
+20:23:05.950 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:23:05.999 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@67297992
+20:23:07.360 [http-nio-8080-exec-1] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+20:23:09.330 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@541750df
+20:23:09.387 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : types
+20:23:10.316 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@3c22ba20
+20:23:10.320 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message
+20:23:10.397 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@777e909a
+20:23:10.406 [http-nio-8080-exec-4] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : message :: messages
+20:23:11.303 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7dddceb1
+20:23:11.309 [http-nio-8080-exec-5] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : archives
+20:23:11.938 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@162331e0
+20:23:11.941 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : background
+20:23:12.599 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@71d3168d
+20:23:12.601 [http-nio-8080-exec-8] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : about
+20:23:13.644 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@7f390ce9
+20:23:13.691 [http-nio-8080-exec-9] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+20:23:14.365 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@118bc7b6
+20:23:14.366 [http-nio-8080-exec-10] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : background
+20:23:15.646 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@f72a619
+20:23:15.692 [http-nio-8080-exec-2] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : index
+20:23:17.310 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@5f15d58a
+20:23:17.518 [http-nio-8080-exec-6] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : blog
+20:31:56.087 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@39f63820
+20:31:56.202 [http-nio-8080-exec-3] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : search
+20:32:01.882 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doBefore,31] - Request : com.mayblackcat.helloblog.config.properties.LogProperties@37e37513
+20:32:01.916 [http-nio-8080-exec-7] INFO  c.m.h.a.LogAspect - [doAfterReturning,37] - result : search

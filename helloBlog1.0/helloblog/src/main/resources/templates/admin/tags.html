@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <!--移动端更好的适应-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../static/images/favicon.ico" th:href="@{/images/top-key.png}" rel="icon" type="image/x-ico">
+    <link rel="stylesheet" href="../../static/dist/semantic/semantic.min.css" th:href="@{/dist/semantic/semantic.min.css}">
+    <link rel="stylesheet" href="../../static/css/my.css" th:href="@{/css/my.css}">
+    <title>标签管理</title>
+</head>
+<body>
+<!--导航开始--------------------------------------------->
+<nav th:replace="admin/_fragments :: menu(3)" class="ui inverted attached segment m-padded-mini m-shadow-small" >
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui teal header item">HelloBlog管理后台</h2>
+            <a href="#" th:href="@{/admin/blogs}" class="m-item item m-mobile-hide"><i class="home icon"></i>博客</a>
+            <a href="#" th:href="@{/admin/types}" class="m-item item m-mobile-hide"><i class="idea icon"></i>分类</a>
+            <a href="#" th:href="@{/admin/tags}" class="m-item item m-mobile-hide"><i class="tags icon"></i>标签</a>
+            <div class="right m-item m-mobile-hide menu">
+                <div class="ui dropdown item">
+                    <img class="ui avatar image" src="../../static/images/me.jpg" th:src="@{/images/me.jpg}">hello
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                        <a href="#" class="item">修改密码</a>
+                        <a href="#" th:href="@{/admin/logout}" class="item">注销</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="ui m-menu m-toggle black icon button m-right-top m-mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
+</nav>
+<!-- 二级导航 -->
+<div class="ui attached pointing menu">
+    <div class="ui container">
+        <div class="right menu">
+            <a href="#" class="item">新增</a>
+            <a href="#" class="active teal item">列表</a>
+        </div>
+    </div>
+</div>
+<!--导航结束---------------------------------------------->
+
+
+<!--中间内容开始------------------------------------------>
+<div class="m-container-small m-padded-large">
+    <div class="ui container">
+        <div class="ui scale message" th:unless="${#strings.isEmpty(message)}">
+            <i class="close icon"></i>
+            <div class="" th:text="|提示: ${message}">提示：操作成功！</div>
+        </div>
+        <!-- 中间内容搜索结果开始 -->
+        <table class="ui celled table">
+            <thead>
+            <tr>
+                <th>序号</th>
+                <th>名称</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="tag,iterStat : ${page.list}">
+                <td class="text" th:text="${iterStat.count}">1</td>
+                <td th:text="${tag.name}">spring boot</td>
+                <td>
+                    <a href="#" th:href="@{/admin/tags/{id}/input(id=${tag.id})}" class="ui mini teal basic button">编辑</a>
+                    <a href="#" id="delete" onclick="return confirm('确定删除？')" th:href="@{/admin/tags/{id}/delete(id=${tag.id})}" class="ui mini red basic button">删除</a>
+                </td>
+            </tr>
+            </tbody>
+            <!-- 中间内容分页开始 -->
+            <tfoot>
+            <tr>
+                <th colspan="6" >
+                    <div class="ui inverted divided stackable grid">
+                        <div class="three wide column" align="center">
+                            <a class="item" th:href="@{/admin/tags(pageNum=${page.hasPreviousPage}?${page.prePage}:1)}" th:unless="${page.isFirstPage}">上一页</a>
+                        </div>
+
+                        <div class="ten wide column" align="center">
+                            <p>第 <span th:text="${page.pageNum}"></span> 页，共 <span th:text="${page.pages}"></span> 页，有 <span th:text="${page.total}"></span> 个分类</p>
+                        </div>
+
+                        <div class="three wide column" align="center">
+                            <a class="item" th:href="@{/admin/tags(pageNum=${page.hasNextPage}?${page.nextPage}:${page.pages})}" th:unless="${page.isLastPage}">下一页</a>
+                        </div>
+                    </div>
+                    <div align="center">
+                        <a href="#" th:href="@{/admin/tags/add}">
+                            <button type="button" class="ui teal button m-mobile-wide m-margin-top"><i class="pencil icon"></i>新增</button>
+                        </a>
+                    </div>
+                </th>
+            </tr>
+            </tfoot>
+            <!-- 中间内容分页结束 -->
+        </table>
+        <!-- 中间内容搜索结果结束 -->
+
+    </div>
+</div>
+<!--中间内容结束------------------------------------------>
+
+
+
+<script src="../../static/dist/jquery/jquery-3.4.1.min.js" th:src="@{/dist/jquery/jquery-3.4.1.min.js}"></script>
+<script src="../../static/dist/semantic/semantic.min.js" th:src="@{/dist/semantic/semantic.min.js}"></script>
+<script>
+    $('.m-menu.m-toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide');
+    });
+
+    $('.ui.dropdown').dropdown({
+        on : 'hover'
+    });
+    //消息提示关闭初始化
+    $(' .message .close')
+        .on('click', function () {
+            $(this)
+                .closest('.message' )
+                .transition( 'fade');
+        });
+
+</script>
+</body>
+</html>

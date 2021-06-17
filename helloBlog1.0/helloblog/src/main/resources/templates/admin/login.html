@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org" >
+
+<!-- Head -->
+<head>
+  <meta charset="UTF-8">
+  <title>登录</title>
+  <link href="../static/images/favicon.ico" th:href="@{/images/top-key.png}" rel="icon" type="image/x-ico">
+<!-- Meta-Tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Meta-Tags -->
+
+<!-- Style -->
+  <link href="../../static/dist/semantic/semantic.min.css" th:href="@{/dist/semantic/semantic.min.css}" rel="stylesheet">
+  <link href="../../static/css/my.css" th:href="@{/css/my.css}" rel="stylesheet">
+  <link rel="stylesheet" href="../../static/css/style.css" th:href="@{/css/style.css}" type="text/css" media="all">
+</head>
+<!-- //Head -->
+
+<!-- Body -->
+<body>
+
+<h1>HelloBlog Login</h1>
+<div class="container w3layouts agileits">
+  <div class="login w3layouts agileits">
+    <h2 class="txt-center">博客后台</h2>
+    <form action="#" th:action="@{/admin/login}" method="post">
+      <input  type="text" Name="username" placeholder="用户名" required="">
+      <input  type="password" Name="password" placeholder="密码" required="">
+      <div class="send-button w3layouts agileits">
+        <input class="txt-center" type="submit" value="登 录">
+      </div>
+    </form>
+    <input type="checkbox" id="remember" ><a href="#">记住密码</a>
+    <div class="social-icons w3layouts agileits">
+      <p>- 其他方式登录 -</p>
+      <ul>
+        <li class="qq"><a href="#"> <span class="icons w3layouts agileits"></span> <span class="text w3layouts agileits">QQ</span></a></li>
+        <li class="weixin w3ls"><a href="#"> <span class="icons w3layouts"></span> <span class="text w3layouts agileits">微信</span></a></li>
+        <li class="weibo aits"><a href="#"> <span class="icons agileits"></span> <span class="text w3layouts agileits">微博</span></a></li>
+        <div class="clear"> </div>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  <div class="clear"></div>
+</div>
+<div class="right m-item item m-mobile-hide">
+  <a  href="#" th:href="@{/}" style="color: #b0b0b0"  class="m-item item m-mobile-hide"><i class="home icon"></i>返回主页</a>
+</div>
+<div class="ui error mini message'"></div>
+<div class="ui mini negative| message" th:unless=" ${#strings.isEmpty(message)}" th:text="${message}">用户名和密码错误</div>
+
+<div class="footer w3layouts agileits">
+  <p>Copyright &copy; More Templates</p>
+</div>
+</body>
+<!-- //Body -->
+
+</html>

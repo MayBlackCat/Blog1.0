@@ -1,0 +1,55 @@
+spring:
+  thymeleaf:
+    mode: HTML
+    encoding: utf-8
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/helloblog?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+  banner:
+    charset: UTF-8
+  messages:
+    encoding: UTF-8
+    basename: i18n/messages
+  tomcat:
+    uri-encoding: UTF-8
+
+
+comment.avatar: /images/avatar.png
+message.avatar: /images/avatar.png
+
+
+# MyBatis
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+# PageHelper分页插件
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+
+
+#日志配置
+logging:
+  level:
+    com.mayblackcat: debug
+    org.springframework: warn
+
+
+
+
+
+
+

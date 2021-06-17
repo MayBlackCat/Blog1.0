@@ -1,0 +1,36 @@
+21:58:06.896 [restartedMain] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 4044 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+21:58:06.906 [restartedMain] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,648] - No active profile set, falling back to default profiles: default
+21:58:08.793 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+21:58:08.803 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:58:08.803 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+21:58:08.893 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:58:09.153 [restartedMain] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+21:58:10.433 [restartedMain] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+21:58:10.553 [restartedMain] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+21:58:10.743 [restartedMain] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.4.31.Final
+21:58:11.264 [restartedMain] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+21:58:11.394 [restartedMain] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+21:58:11.575 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+21:58:12.152 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+21:58:12.172 [restartedMain] INFO  c.m.h.HelloblogApplication - [logStarted,61] - Started HelloblogApplication in 6.033 seconds (JVM running for 7.357)
+22:05:18.587 [restartedMain] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 1596 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+22:05:18.590 [restartedMain] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,652] - The following profiles are active: development
+22:05:19.660 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+22:05:19.661 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:05:19.661 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+22:05:19.734 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:05:19.849 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+22:05:32.640 [restartedMain] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 11176 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+22:05:32.643 [restartedMain] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,652] - The following profiles are active: development
+22:05:33.753 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+22:05:33.753 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:05:33.754 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+22:05:33.821 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:05:33.861 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+22:22:08.351 [restartedMain] INFO  c.m.h.HelloblogApplication - [logStarting,55] - Starting HelloblogApplication on DESKTOP-L12NF9H with PID 7452 (D:\javaproject\helloblog\target\classes started by ASUS in D:\javaproject\helloblog)
+22:22:08.354 [restartedMain] INFO  c.m.h.HelloblogApplication - [logStartupProfileInfo,652] - The following profiles are active: development
+22:22:09.426 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+22:22:09.427 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:22:09.427 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+22:22:09.498 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:22:09.542 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
